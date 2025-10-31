@@ -24,11 +24,27 @@ Docker (para empaquetar la aplicación)
 Git (control de versiones)
 
 ```bash
-Poto/
-├── README.md
-├── src/        # Código fuente
-├── docs/       # Documentación y diagramas
-└── tests/      # Pruebas automáticas (opcional)
+facial-recognition-app/
+│
+├── src/
+│   ├── main/java/com/poto/facerecognition/
+│   │   ├── Main.java
+│   │   ├── FaceTrainer.java
+│   │   ├── FaceRecognizer.java
+│   │   ├── DatabaseManager.java
+│   │   └── UI/
+│   │       └── AppGUI.java
+│
+├── resources/
+│   ├── images/
+│   │   ├── training/
+│   │   │   └── Jorge/
+│   │   │       ├── jorge1.jpg
+│   │   │       ├── jorge2.jpg
+│   │   └── others/
+│   └── haarcascade_frontalface_default.xml
+│
+└── pom.xml  (si usas Maven)
 ```
 
 🗓️ Plan Inicial
