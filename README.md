@@ -26,3 +26,40 @@ Docker (para empaquetar la aplicación)
 Git (control de versiones)
 
 📂 Estructura Inicial del Repositorio
+JavaFaceRecognition/
+├── README.md
+├── src/
+│   └── main/java/com/poto/facerecognition/
+│       ├── Main.java
+│       ├── FaceDetector.java
+│       ├── FaceRecognizer.java
+│       └── UI/
+│           └── AppGUI.java
+├── resources/
+│   ├── images/
+│   │   ├── training/       # Fotos de usuarios
+│   │   └── haarcascade_frontalface_default.xml
+└── docs/                  # Documentación y diagramas
+
+🗓️ Plan Inicial
+
+Preparar entorno de desarrollo en Eclipse con OpenCV.
+
+Implementar detección de rostros usando Haar Cascade.
+
+Crear módulo para registrar y almacenar imágenes de usuarios.
+
+Implementar reconocimiento facial con LBPHFaceRecognizer.
+
+Crear una interfaz gráfica simple con JavaFX.
+
+Documentar el código y generar diagramas UML.
+
+Realizar pruebas de detección y reconocimiento con imágenes reales.
+
+Empaquetar la aplicación en un .jar ejecutable.
+
+🤝 Contribuciones
+
+Este proyecto es personal, pero abierto a sugerencias y mejoras.
+Se valoran ideas sobre optimización del reconocimiento, mejoras de UI y uso de bases de datos para almacenamiento de usuarios.
