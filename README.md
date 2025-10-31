@@ -22,6 +22,7 @@ Maven (gestión de dependencias y build)
 Docker (para empaquetar la aplicación)
 
 Git (control de versiones)
+
 🗂️ Estructura del proyecto (ejemplo con OpenCV)
 ```bash
 facial-recognition-app/
