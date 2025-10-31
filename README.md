@@ -13,13 +13,11 @@ Java (JDK 11 o superior)
 
 OpenCV 4.12.0 (Java bindings)
 
-JavaFX (opcional, para interfaz gráfica)
+JavaFX (para interfaz gráfica)
 
-SQLite (opcional, para almacenar información de usuarios)
+SQLite (para almacenar información de usuarios)
 
 Maven (gestión de dependencias y build)
-
-Extras opcionales:
 
 Docker (para empaquetar la aplicación)
 
