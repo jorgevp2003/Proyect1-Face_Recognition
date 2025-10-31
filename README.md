@@ -25,21 +25,6 @@ Docker (para empaquetar la aplicación)
 
 Git (control de versiones)
 
-📂 Estructura Inicial del Repositorio
-JavaFaceRecognition/
-├── README.md
-├── src/
-│   └── main/java/com/poto/facerecognition/
-│       ├── Main.java
-│       ├── FaceDetector.java
-│       ├── FaceRecognizer.java
-│       └── UI/
-│           └── AppGUI.java
-├── resources/
-│   ├── images/
-│   │   ├── training/       # Fotos de usuarios
-│   │   └── haarcascade_frontalface_default.xml
-└── docs/                  # Documentación y diagramas
 
 🗓️ Plan Inicial
 
