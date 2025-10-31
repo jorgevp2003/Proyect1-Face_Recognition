@@ -23,6 +23,13 @@ Docker (para empaquetar la aplicación)
 
 Git (control de versiones)
 
+```bash
+Poto/
+├── README.md
+├── src/        # Código fuente
+├── docs/       # Documentación y diagramas
+└── tests/      # Pruebas automáticas (opcional)
+```
 
 🗓️ Plan Inicial
 
